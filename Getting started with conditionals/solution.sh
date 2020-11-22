@@ -1,0 +1,13 @@
+#!/bin/bash
+
+read character
+
+if [[ $character == "Y" || $character == "y" ]]
+then
+    echo "YES"
+elif [[ $character  == "N" || $character == "n" ]]
+then
+    echo "NO"
+else
+    echo "/"
+fi
